@@ -1,4 +1,4 @@
-import { KurrentDBClient, jsonEvent } from '@kurrent/kurrentdb-client'
+import { jsonEvent, KurrentDBClient } from '@kurrent/kurrentdb-client'
 
 const client = KurrentDBClient.connectionString('kurrentdb://0.0.0.0:2113?tls=false')
 
