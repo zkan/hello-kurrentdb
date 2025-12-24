@@ -1,0 +1,11 @@
+services:
+  eventstore:
+    image: eventstore/eventstore:24.10.0
+    container_name: esdb-node
+    ports:
+      - 2113:2113
+    command: >
+      --insecure
+      --run-projections=ALl
+      --enable-atom-pub-over-http
+    tty: true
