@@ -1,2 +1,1 @@
-# hello-kurrentdb
-Hello, KurrentDB!
+# Hello, KurrentDB!
