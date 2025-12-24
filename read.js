@@ -1,6 +1,6 @@
-import { EventStoreDBClient, FORWARDS, START } from '@eventstore/db-client'
+import { KurrentDBClient, FORWARDS, START } from '@kurrent/kurrentdb-client'
 
-const client = EventStoreDBClient.connectionString('esdb://0.0.0.0:2113?tls=false')
+const client = KurrentDBClient.connectionString('kurrentdb://0.0.0.0:2113?tls=false')
 
 const eventStream = 'SampleStream'
 let events = client.readStream(

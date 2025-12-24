@@ -1,6 +1,6 @@
-import { EventStoreDBClient, jsonEvent } from '@eventstore/db-client'
+import { KurrentDBClient, jsonEvent } from '@kurrent/kurrentdb-client'
 
-const client = EventStoreDBClient.connectionString('esdb://0.0.0.0:2113?tls=false')
+const client = KurrentDBClient.connectionString('kurrentdb://0.0.0.0:2113?tls=false')
 
 // Create a new event
 const eventType = 'SampleEventType'

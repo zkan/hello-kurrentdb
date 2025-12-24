@@ -1,11 +1,11 @@
 services:
-  eventstore:
-    image: eventstore/eventstore:24.10.0
-    container_name: esdb-node
+  kurrentdb:
+    image: kurrentplatform/kurrentdb:25.1.1
+    container_name: kurrentdb-node
     ports:
       - 2113:2113
-    command: >
-      --insecure
-      --run-projections=ALl
-      --enable-atom-pub-over-http
+    environment:
+      KURRENTDB_INSECURE: true
+      KURRENTDB_RUN_PROJECTIONS: All
+      KURRENTDB_ENABLE_ATOM_PUB_OVER_HTTP: true
     tty: true
