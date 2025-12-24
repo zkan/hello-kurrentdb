@@ -18,6 +18,15 @@ Read all events:
 node read.js
 ```
 
+Append to and read from a stream:
+
+```bash
+node app.js
+```
+
+Then access the endpoint here:
+[http://localhost:8080/hello-world?visitor=Ouro](http://localhost:8080/hello-world?visitor=Ouro)
+
 Tear down the KurrentDB:
 
 ```bash
