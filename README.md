@@ -1,5 +1,11 @@
 # Hello, KurrentDB!
 
+Run the KurrentDB:
+
+```bash
+mise run up
+```
+
 Append a new event:
 
 ```bash
@@ -10,6 +16,12 @@ Read all events:
 
 ```bash
 node read.js
+```
+
+Tear down the KurrentDB:
+
+```bash
+mise run down
 ```
 
 **Credit:**
