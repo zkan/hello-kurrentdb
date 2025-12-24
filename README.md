@@ -26,6 +26,8 @@ mise run down
 
 ## Credit
 
-* [EventStoreDB-From-Scratch-Nodejs](https://github.com/kurrent-io/EventStoreDB-From-Scratch-Nodejs)
 * [KurrentDB NodeJS
 Client](https://github.com/kurrent-io/KurrentDB-Client-NodeJS)
+* [EventStoreDB-From-Scratch-Nodejs](https://github.com/kurrent-io/EventStoreDB-From-Scratch-Nodejs)
+* [Node.js Sample: Hello,
+World!](https://github.com/kurrent-io/samples/tree/main/Quickstart/Nodejs/esdb-sample-nodejs)
