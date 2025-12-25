@@ -6,3 +6,15 @@ run = "docker compose up -d"
 
 [tasks.down]
 run = "docker compose down"
+
+[tasks.dev]
+run = "npm run dev"
+
+[tasks.tsc]
+run = "npm run tsc"
+
+[tasks.build]
+run = "npm run build"
+
+[tasks.start]
+run = "npm start"
