@@ -33,10 +33,14 @@ Tear down the KurrentDB:
 mise run down
 ```
 
-## Credit
+## References
 
 * [KurrentDB NodeJS
 Client](https://github.com/kurrent-io/KurrentDB-Client-NodeJS)
 * [EventStoreDB-From-Scratch-Nodejs](https://github.com/kurrent-io/EventStoreDB-From-Scratch-Nodejs)
 * [Node.js Sample: Hello,
 World!](https://github.com/kurrent-io/samples/tree/main/Quickstart/Nodejs/esdb-sample-nodejs)
+* [How to Setup Node.js and
+TypeScript](https://www.youtube.com/watch?v=u_GQSEjis48)
+* [TSX vs ts-node: The Definitive TypeScript Runtime Comparison
+](https://betterstack.com/community/guides/scaling-nodejs/tsx-vs-ts-node/)
