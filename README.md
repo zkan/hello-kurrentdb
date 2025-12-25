@@ -1,10 +1,22 @@
 # Hello, KurrentDB!
 
+## Getting Started
+
+### Running KurrentDB
+
 Run the KurrentDB:
 
 ```bash
 mise run up
 ```
+
+Tear down the KurrentDB:
+
+```bash
+mise run down
+```
+
+### Running Scripts to Append and Read Events
 
 Append a new event:
 
@@ -18,20 +30,23 @@ Read all events:
 node read.js
 ```
 
+### Running Express App to Append and Read Events
+
 Append to and read from a stream:
 
 ```bash
 node app.js
 ```
 
+[TypeScript] Append to and read from a stream:
+
+```bash
+mise run dev
+```
+
 Then access the endpoint here:
 [http://localhost:8080/hello-world?visitor=Ouro](http://localhost:8080/hello-world?visitor=Ouro)
 
-Tear down the KurrentDB:
-
-```bash
-mise run down
-```
 
 ## References
 
