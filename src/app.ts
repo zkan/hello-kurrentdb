@@ -1,9 +1,9 @@
 import express from 'express'
 import { FORWARDS, jsonEvent, KurrentDBClient, START } from '@kurrent/kurrentdb-client'
-import type { Request, Response } from 'express'
+import type { Application, Request, Response } from 'express'
 
-const app = express()
-const port = 8080
+const app: Application = express()
+const port: number = 8080
 
 const client = KurrentDBClient.connectionString('kurrentdb://0.0.0.0:2113?tls=false')
 
