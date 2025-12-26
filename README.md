@@ -59,3 +59,4 @@ World!](https://github.com/kurrent-io/samples/tree/main/Quickstart/Nodejs/esdb-s
 TypeScript](https://www.youtube.com/watch?v=u_GQSEjis48)
 * [TSX vs ts-node: The Definitive TypeScript Runtime Comparison
 ](https://betterstack.com/community/guides/scaling-nodejs/tsx-vs-ts-node/)
+* [TSConfigs to extend in a TypeScript app](https://github.com/tsconfig/bases)
